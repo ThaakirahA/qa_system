@@ -1,61 +1,99 @@
 # Word Document Q&A System
 
-## Overview
-This project implements a transformer-based Q&A system on Word `.docx` calendar documents.  
-It uses the `burn` deep learning framework (v0.20.1) and `docx-rs` (v0.4) for DOCX parsing.
+**SEG 580S: Software Engineering Deep Learning Systems Training on CPUT Data**  
+**Project:** Question-Answering System with Rust and Burn Framework  
 
-## Folder Structure
+---
+
+## Project Overview
+
+This project implements a **Question-Answering (Q&A) system** that reads Word documents (`.docx`) and answers questions about their content. The system is built using **Rust** and the **Burn deep learning framework**, demonstrating a complete machine learning pipeline:
+
+- Document processing (`.docx`)
+- Tokenization and batching
+- Transformer-based neural network training
+- Command-line interface for Q&A
+- Model deployment and inference
+
+---
+
+## Repository Structure
+
+
 word-doc-qa/
-├── Cargo.toml
-├── README.md
-├── docs/report.md
-├── src/
-│ ├── lib.rs
-│ ├── bin/train.rs
-│ ├── bin/infer.rs
-│ ├── data/
-│ ├── model/
-│ ├── training/
-│ └── inference/
-└── data_files/
-├── calendar_2024.docx
-├── calendar_2025.docx
-└── calendar_2026.docx
-## Usage
+├── src/ # Rust source code
+├── Cargo.toml # Project configuration
+├── report.md # Project report in Markdown
+├── README.md # This file
+└── examples/ # Example Word documents (optional)
 
-1. Place `.docx` files in `data_files/`.
-2. Train the model:
+
+---
+
+## Setup Instructions
+
+1. **Clone the repository:**
 
 ```bash
-cargo run --bin train
+git clone https://github.com/<username>/word-doc-qa.git
+cd word-doc-qa
 
+Install Rust (if not installed):
 
-Run inference:
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-cargo run --bin infer
+Build the project:
 
-Notes
+cargo build --release
 
-DO NOT change dependency versions; use exactly:
+Run tests (optional):
 
-burn = 0.20.1
+cargo test
+Usage
 
-docx-rs = 0.4
+Run the system from the command line:
 
-tokenizers = 0.15
+cargo run --release -- <path_to_docx_file> --question "Your question here"
 
-Cargo edition 2021 is required for grading compatibility.
+Example:
 
+cargo run --release -- examples/graduation_schedule.docx --question "When is the 2026 End-of-Year Graduation Ceremony?"
 
----
+The system will output the predicted answer based on the document content.
 
-✅ After this, your project is **fully structured and graded-ready**:
+Example Questions
 
-- All DOCX files go in:  
-  `word-doc-qa/data_files/`
-- Train with: `cargo run --bin train`
-- Test inference with: `cargo run --bin infer`
-- Maintains all required versions and edition.
+When is the 2026 End-of-Year Graduation Ceremony?
 
----
+How many times did HDC hold meetings in 2024?
 
+[Add your other test questions here]
+
+Report
+
+Full project report is available in Markdown format:
+
+report.md
+
+This includes:
+
+Problem statement and motivation
+
+Implementation details (architecture, data pipeline, training)
+
+Experiments and results
+
+Conclusion and future work
+
+Dependencies
+
+The project uses the following Rust crates:
+
+Crate	Version	Purpose
+burn	0.20.1	Deep learning framework
+docx-rs	0.4	Load .docx documents
+tokenizers	0.15	Tokenization
+serde	1.0	Serialization
+serde_json	1.0	JSON handling
+
+Note: Do not change the versions; grading depends on them.
