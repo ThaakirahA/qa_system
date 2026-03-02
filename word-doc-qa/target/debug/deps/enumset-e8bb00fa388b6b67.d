@@ -1,0 +1,12 @@
+C:\Users\akira\qa_system\word-doc-qa\target\debug\deps\enumset-e8bb00fa388b6b67.d: C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\lib.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\macros.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\derive.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\repr\mod.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\repr\array.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\repr\primitive.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\set.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\traits.rs
+
+C:\Users\akira\qa_system\word-doc-qa\target\debug\deps\libenumset-e8bb00fa388b6b67.rmeta: C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\lib.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\macros.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\derive.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\repr\mod.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\repr\array.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\repr\primitive.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\set.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\traits.rs
+
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\lib.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\macros.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\derive.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\repr\mod.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\repr\array.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\repr\primitive.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\set.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\enumset-1.1.10\src\traits.rs:

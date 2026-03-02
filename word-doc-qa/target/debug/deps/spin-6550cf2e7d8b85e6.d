@@ -1,0 +1,12 @@
+C:\Users\akira\qa_system\word-doc-qa\target\debug\deps\spin-6550cf2e7d8b85e6.d: C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\lib.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\barrier.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\lazy.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\mutex.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\mutex\spin.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\once.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\relax.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\rwlock.rs
+
+C:\Users\akira\qa_system\word-doc-qa\target\debug\deps\libspin-6550cf2e7d8b85e6.rmeta: C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\lib.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\barrier.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\lazy.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\mutex.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\mutex\spin.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\once.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\relax.rs C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\rwlock.rs
+
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\lib.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\barrier.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\lazy.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\mutex.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\mutex\spin.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\once.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\relax.rs:
+C:\Users\akira\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\spin-0.10.0\src\rwlock.rs:

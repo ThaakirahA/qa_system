@@ -1,0 +1,290 @@
+   2.296992800s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="word_doc_qa"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("word_doc_qa", ["lib"], "C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\lib.rs", Edition2021) }
+   2.300685500s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="word_doc_qa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-a266fc89fe866506\lib-word_doc_qa`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.551592500s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="word_doc_qa"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("word_doc_qa", ["lib"], "C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\lib.rs", Edition2021) }
+   2.551623300s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="word_doc_qa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-a5d1944375e0004a\test-lib-word_doc_qa`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.556111300s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="cli"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: false }/TargetInner { name: "cli", doc: true, ..: with_path("C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\bin\\cli.rs", Edition2021) }
+   2.556147800s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="cli"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-e046fe5e4522d9c1\bin-cli`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.558196600s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="cli"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: true }/TargetInner { name: "cli", doc: true, ..: with_path("C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\bin\\cli.rs", Edition2021) }
+   2.558226000s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="cli"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-85d3c624976d8057\test-bin-cli`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.560695700s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="infer"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: false }/TargetInner { name: "infer", doc: true, ..: with_path("C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\bin\\infer.rs", Edition2021) }
+   2.560725600s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="infer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-a1f4349eb733601c\bin-infer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.562802300s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="infer"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: true }/TargetInner { name: "infer", doc: true, ..: with_path("C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\bin\\infer.rs", Edition2021) }
+   2.562830100s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="infer"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-a6e5ab2bc75274fc\test-bin-infer`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.567334600s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="train"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: false }/TargetInner { name: "train", doc: true, ..: with_path("C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\bin\\train.rs", Edition2021) }
+   2.567380500s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="train"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-fb94bef9cce827bc\bin-train`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.570869900s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="train"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: true }/TargetInner { name: "train", doc: true, ..: with_path("C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\bin\\train.rs", Edition2021) }
+   2.570899500s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="train"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-150974e707e407e9\test-bin-train`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.573119500s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="word-doc-qa"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: false }/TargetInner { name: "word-doc-qa", doc: true, ..: with_path("C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\main.rs", Edition2021) }
+   2.573150000s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="word-doc-qa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-ca872ba34173f3f5\bin-word-doc-qa`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   2.576112600s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="word-doc-qa"}: cargo::core::compiler::fingerprint: fingerprint error for word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)/Check { test: true }/TargetInner { name: "word-doc-qa", doc: true, ..: with_path("C:\\Users\\akira\\qa_system\\word-doc-qa\\src\\main.rs", Edition2021) }
+   2.576144200s  INFO prepare_target{force=false package_id=word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa) target="word-doc-qa"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\akira\qa_system\word-doc-qa\target\debug\.fingerprint\word-doc-qa-0ec0a43d677672b8\test-bin-word-doc-qa`
+
+Caused by:
+    The system cannot find the file specified. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking word-doc-qa v0.1.0 (C:\Users\akira\qa_system\word-doc-qa)
+error: could not compile `word-doc-qa` (bin "train") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `word-doc-qa` (bin "cli") due to 1 previous error
+error: could not compile `word-doc-qa` (bin "infer" test) due to 5 previous errors
+error: could not compile `word-doc-qa` (bin "infer") due to 5 previous errors
+error: could not compile `word-doc-qa` (bin "train" test) due to 1 previous error
+error: could not compile `word-doc-qa` (bin "cli" test) due to 1 previous error
+error: could not compile `word-doc-qa` (bin "word-doc-qa") due to 10 previous errors; 1 warning emitted
+error: could not compile `word-doc-qa` (bin "word-doc-qa" test) due to 10 previous errors; 1 warning emitted
